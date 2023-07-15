@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Counter from '@/app/counter';
+import Link from 'next/link';
 
 export default function Home() {
   return (
@@ -41,6 +42,8 @@ export default function Home() {
       </div>
 
       <Counter />
+
+      <Link href="/categories/toto">See category Toto</Link>
 
       <div className="mb-32 grid text-center lg:mb-0 lg:grid-cols-4 lg:text-left">
         <a
